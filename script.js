@@ -1,18 +1,40 @@
-console.log('hello world!');
+for(let i=0; i<10; i++){
+    console.log(i);
+}
+let i = 1;
+while(i<100){
+    console.log(i);
+    i*=2;
+}
 
-let num = 1;
-num = 3;
-num = 3 * 3 + 7 / 2 - 15;
-num = num + 3;
-num += 3;
-num ++;
-num = num**2;
-num **= 3;
-num = 13;
-num = num % 7;
-num %= 2;
-//var text = 'Hello'; Don't use var
-console.log (num);
-let string = 'hello';
-string = "hello";
-string ='hello number is: ${num}';
+
+i = 1;
+while(i>10){
+    console.log('asjklds')
+}
+
+i = 1;
+do{
+    console.log('asjklds')
+} while(i>10);
+
+let fruits=['banana', 'cherry', 'apple', 'pear'];
+
+for(let i=0; i=fruits.length; i++){
+    console.log(fruits[i]);
+}
+
+for(const fruit of fruits){
+    console.log(fruit);
+}
+
+let object = {
+    name: 'echo',
+    age: 18,
+    eyes: 'blue'
+}
+
+for(const property in object)[
+    console.log(property);
+    console.log(object[property]);
+]
